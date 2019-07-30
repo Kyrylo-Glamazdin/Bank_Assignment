@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bank_assignment/static/css/main.9c6137fc.chunk.css",
+    "main.js": "/bank_assignment/static/js/main.c329f268.chunk.js",
+    "main.js.map": "/bank_assignment/static/js/main.c329f268.chunk.js.map",
+    "runtime~main.js": "/bank_assignment/static/js/runtime~main.233de0b5.js",
+    "runtime~main.js.map": "/bank_assignment/static/js/runtime~main.233de0b5.js.map",
+    "static/js/2.e0042b27.chunk.js": "/bank_assignment/static/js/2.e0042b27.chunk.js",
+    "static/js/2.e0042b27.chunk.js.map": "/bank_assignment/static/js/2.e0042b27.chunk.js.map",
+    "index.html": "/bank_assignment/index.html",
+    "precache-manifest.9dc654775a288abe7cea573199c89d08.js": "/bank_assignment/precache-manifest.9dc654775a288abe7cea573199c89d08.js",
+    "service-worker.js": "/bank_assignment/service-worker.js",
+    "static/css/main.9c6137fc.chunk.css.map": "/bank_assignment/static/css/main.9c6137fc.chunk.css.map"
+  }
+}
