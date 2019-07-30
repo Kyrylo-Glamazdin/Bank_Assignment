@@ -136,7 +136,7 @@ class App extends Component {
     const DebitComponent = () => (<Debit debits = {this.state.debits} debitTotal = {this.state.debitTotal} handleAddNewDebit = {this.handleAddNewDebit}/>)
       const CreditComponenet = () => (<Credit credits={this.state.credits} creditTotal={this.state.creditTotal} handleAddNewCredit={this.handleAddNewCredit} />);
     return (
-      <Router basename="ReactRouter">
+      <Router basename="Bank_Assignment">
         <Switch>
             <Route exact path = "/" render={LogInComponent}/>
             <Route exact path = "/userProfile" component={UserProfileComponent}/>
