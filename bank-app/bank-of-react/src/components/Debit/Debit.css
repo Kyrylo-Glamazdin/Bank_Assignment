@@ -1,0 +1,15 @@
+.main-debit {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    font: 200 17px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.cards {
+    display :flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
