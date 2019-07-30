@@ -44,7 +44,8 @@ class Debit extends Component {
         return (
             <div className = "main-debit">
                 <Link to ="/home">Home</Link>
-                <div><h1>Total Debit:</h1></div>
+                <div><h1>Total Debit: {this.props.debitTotal}</h1>
+                </div>
                 
                 <form onSubmit={this.handleSubmit}>
                 <div>

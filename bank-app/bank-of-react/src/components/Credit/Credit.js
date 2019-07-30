@@ -45,7 +45,7 @@ class Credit extends Component {
             return (
                     <div className = "main-credit">
                     <Link to ="/home">Home</Link>
-                    <div><h1>Total Credit:</h1></div>
+                    <div><h1>Total Credit: {this.props.creditTotal}</h1></div>
                     
                     <form onSubmit={this.handleSubmit}>
                     <div>

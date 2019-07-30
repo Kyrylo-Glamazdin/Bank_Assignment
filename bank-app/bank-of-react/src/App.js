@@ -32,6 +32,7 @@ class App extends Component {
     })
     this.calculateDebit();
       this.calculateCredit();
+      this.calculateTotal();
   }
 
   componentDidMount = () => {
@@ -56,6 +57,20 @@ class App extends Component {
         }
         this.setState({
                       creditTotal: total
+                      })
+    }
+    
+    calculateTotal = () => {
+        let totalDeb = 0;
+        for(let i of this.state.debits) {
+            totalDeb += i.amount;
+        }
+        let totalCred = 0;
+        for (let i of this.state.credits){
+            totalCred += i.amount;
+        }
+        this.setState({
+                      accountBalance: totalCred - totalDeb
                       })
     }
 
