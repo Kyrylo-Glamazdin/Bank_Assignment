@@ -8,6 +8,7 @@ class AccountBalance extends Component {
             <div>
                 Balance: {this.props.accountBalance}<br></br>
                 Debits: {this.props.debitTotal} <br></br>
+                Credits: {this.props.creditTotal} <br></br>
             </div>
         );
     }
