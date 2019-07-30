@@ -75,12 +75,20 @@ class App extends Component {
     }
 
 
-  handleAddNewDebit = (item, amounts) => {
-    let newDebit = this.state.debits.concat([{
-      description: item,
-      amount: amounts,
-      date: Date.now()
-                                             }])}
+    handleAddNewDebit = (item, amounts) => {
+        let newDebit = this.state.debits.concat([{
+                                                   description: item,
+                                                   amount: amounts,
+                                                   date: Date.now()
+                                                   }]);
+        
+        let newTotal = this.state.debitTotal + parseInt(amounts);
+        this.setState({
+                      debitss: newDebit,
+                      debitTotal : newTotal,
+                      accountBalance: this.state.creditTotal - newTotal
+                      })
+    }
       
       handleAddNewCredit = (item, amounts) => {
           let newCredit = this.state.credits.concat([{
@@ -92,7 +100,8 @@ class App extends Component {
     let newTotal = this.state.creditTotal + parseInt(amounts);
     this.setState({
       credits: newCredit,
-      creditTotal : newTotal
+      creditTotal : newTotal,
+                  accountBalance: newTotal - this.state.debitTotal
     }) 
   }
 
