@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Switch, Route,Redirect} from 'react-router-dom';
+import {HashRouter} from 'react-router-dom';
 import Home from "./components/Home/Home";
 import UserProfile from "./components/UserProfile/UserProfile";
 import LogIn from "./components/LogIn/LogIn";
@@ -136,7 +137,7 @@ class App extends Component {
     const DebitComponent = () => (<Debit debits = {this.state.debits} debitTotal = {this.state.debitTotal} handleAddNewDebit = {this.handleAddNewDebit}/>)
       const CreditComponenet = () => (<Credit credits={this.state.credits} creditTotal={this.state.creditTotal} handleAddNewCredit={this.handleAddNewCredit} />);
     return (
-      <Router basename="Bank_Assignment">
+      <HashRouter>
         <Switch>
             <Route exact path = "/" render={LogInComponent}/>
             <Route exact path = "/userProfile" component={UserProfileComponent}/>
@@ -144,7 +145,7 @@ class App extends Component {
             <Route exact path = "/debit" component = {DebitComponent}/>
             <Route exact path = "/credit" component = {CreditComponenet}/>
         </Switch>
-      </Router>
+      </HashRouter>
     );
   }
 }
