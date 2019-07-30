@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Bank_Assignment/static/css/main.d75989a4.chunk.css",
-    "main.js": "/Bank_Assignment/static/js/main.770a765c.chunk.js",
-    "main.js.map": "/Bank_Assignment/static/js/main.770a765c.chunk.js.map",
+    "main.js": "/Bank_Assignment/static/js/main.365948cb.chunk.js",
+    "main.js.map": "/Bank_Assignment/static/js/main.365948cb.chunk.js.map",
     "runtime~main.js": "/Bank_Assignment/static/js/runtime~main.4836e76b.js",
     "runtime~main.js.map": "/Bank_Assignment/static/js/runtime~main.4836e76b.js.map",
     "static/js/2.4d2a423c.chunk.js": "/Bank_Assignment/static/js/2.4d2a423c.chunk.js",
     "static/js/2.4d2a423c.chunk.js.map": "/Bank_Assignment/static/js/2.4d2a423c.chunk.js.map",
     "index.html": "/Bank_Assignment/index.html",
-    "precache-manifest.5b2ca06fac4f30b9a52166a74f894f36.js": "/Bank_Assignment/precache-manifest.5b2ca06fac4f30b9a52166a74f894f36.js",
+    "precache-manifest.35d7342f8c1eac54d3cf980145eea76c.js": "/Bank_Assignment/precache-manifest.35d7342f8c1eac54d3cf980145eea76c.js",
     "service-worker.js": "/Bank_Assignment/service-worker.js",
     "static/css/main.d75989a4.chunk.css.map": "/Bank_Assignment/static/css/main.d75989a4.chunk.css.map"
   }
