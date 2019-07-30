@@ -84,7 +84,7 @@ class App extends Component {
         
         let newTotal = this.state.debitTotal + parseInt(amounts);
         this.setState({
-                      debitss: newDebit,
+                      debits: newDebit,
                       debitTotal : newTotal,
                       accountBalance: this.state.creditTotal - newTotal
                       })
